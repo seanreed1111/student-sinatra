@@ -6,5 +6,14 @@ module StudentSite
     get '/' do
       "hello world!"
     end
+
+    get '/hello-world' do
+	
+	@numbers = []
+	@numbers = Array (1..20)
+	erb :hello
+	end
+
   end
 end
+
